@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Comfortaa', cursive;
+  box-sizing: border-box;
+  /* background-color: #f5f6f6; */
+}
+
+body {
+  background-image: url('../images/Background.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+p {
+  letter-spacing: -1px;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border-radius: 23px;
+  background-color: #7eb611;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.email {
+  color: #7eb611;
+}
+
+.subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  filter: drop-shadow(-0.977px 2.837px 29.5px rgba(39, 61, 4, 0.11));
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+.email_feild {
+  width: 400px;
+  border-radius: 24px;
+  background-color: #f5f5f5;
+}
+
+.date {
+  border-radius: 10px;
+  background-color: #34304b;
+  width: max-content;
+  color: white;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.date p {
+  font-size: 13px;
+}
+
+.calendar_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.calendar_card {
+  border-radius: 15px;
+  filter: drop-shadow(-0.977px 2.837px 29.5px rgba(69, 75, 72, 0.19));
+  background-color: #ffffff;
+  width: 365px;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.card_first_section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 2px solid #cecece;
+  padding-bottom: 8px;
+}
+
+.radio {
+  font-size: 14px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.custom-control-label {
+  margin-left: 5px;
+}
+
+.card_second_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.card_second_section p {
+  font-size: 13px;
+}
+
+.footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer span {
+  color: #7eb611;
+}
+
+@media(max-width: 450px) {
+  .email_feild {
+    width: 270px;
+  }
+
+  .calendar_card {
+    width: max-content;
+  }
+
+  * {
+    background-color: #f5f6f6;
+  }
+}
